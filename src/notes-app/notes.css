@@ -1,0 +1,75 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    height: 80px;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    background-color: #343A40;
+    color: #F1F8F8;
+}
+
+.text-field-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.text-field {
+    height: 30px;
+    width: 240px;
+    margin-right: 5px;
+}
+
+.add-button {
+    border-radius: 5px;
+    width: 67px;
+    background-color: #343A40;
+    color: #F1F8F8;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.notes-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.notes {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding-left: 35px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 7px;
+}
+
+button {
+    height: 38px;
+    width: 80px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.delete-button {
+    color: #F1F8F8; 
+    background-color: #DC3545;
+}
+
+.edit-button {
+    color: #F1F8F8; 
+    background-color: lightsalmon;
+}
