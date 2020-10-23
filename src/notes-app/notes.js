@@ -16,7 +16,7 @@ export const Notes = () => {
     const editNote = (index) => {
         let edit = prompt("Enter new value: ", notes[index]);
 
-        if (edit.length > 0) {
+        if (edit) {
             let newNote = [...notes];
             newNote[index] = edit;
             setNotes(newNote);
